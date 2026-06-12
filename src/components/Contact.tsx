@@ -1,6 +1,5 @@
 import { useState, useRef } from 'react';
 import { Phone, Mail, MapPin, Send, CheckCircle, Loader } from 'lucide-react';
-import { createClient } from '@supabase/supabase-js';
 
 const supabase = createClient(
   import.meta.env.VITE_SUPABASE_URL,
